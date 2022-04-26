@@ -1,0 +1,78 @@
+.gasNoble{
+  background-color:PaleTurquoise;
+}
+.halogenos{
+  background-color:#E772FF;
+}
+.noMetales{
+  background-color:#7278FF;
+  title="Hidrogeno"
+}
+.metaloides{
+  background-color:#72FF94;
+}
+.metales{
+  background-color:#FFFD72;
+}
+.metalesDeTransicion{
+  background-color:#92FF72;
+}
+.alcalinoTerreos{
+  background-color: #FEB55E;
+}
+.metalesalcalinos{
+  background-color:#FA7B0A;
+}
+.lantanidos{
+  background-color:#0AFACB;
+}
+.actinidos{
+  background-color:#0AFA7F;
+}
+
+.noCatalogados{
+  background-color:#ABABAB;
+}
+td:hover{
+  opacity:1;
+   transition: all;
+  visibily: visible;
+  background: #2FD648;
+}
+td{
+  transition: width 0.2s, height 0.2s, transform 0.25s;
+}
+td:hover{
+  transform: scale(1.8);
+}
+
+.modal-contenido{
+  background-color:rgba(40,114,51,0.5);
+  color:#ffffff; 
+  width:300px; 
+  padding:10px 20px; 
+  box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.527); 
+  margin: 2rem auto; 
+  position: relative; 
+  border-style:outset; 
+  border-radius: 6px; 
+  overflow: hidden; 
+  z-index: 1; 
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.modal{
+  background-color: rgba(0,0,0,.6); 
+  position:fixed; 
+  top:0; 
+  right:0;
+  bottom:0; 
+  left:0; 
+  opacity:0; 
+  pointer-events:none; 
+  transition:all 1s; 
+}
+:target{
+opacity: 1; 
+pointer-events: auto; 
+border-radius: 8px;
+}
